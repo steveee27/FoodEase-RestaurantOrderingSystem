@@ -65,13 +65,15 @@ Make sure you have **Node.js** installed on your machine. If you don't have it y
 
 ### Running the Application
 
-1. After the server is running, navigate to the `foodease` directory:
+1. Make sure all dependencies are installed by running:
+   ```bash
+   npm install
+   ```
+   This will install all the necessary packages, including `react-scripts`.
+
+2. After that, navigate to the `foodease` directory and start the frontend application:
    ```bash
    cd ../foodease
-   ```
-
-2. Start the frontend application:
-   ```bash
    npm start
    ```
 
